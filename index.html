@@ -23,16 +23,22 @@
 <!-- ACCUEIL -->
 
 <div class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center align-items-center">µ
-    <div class="container jumbotron-content bg-success bg-opacity-50 text-center py-5 rounded">
+    <div class="container jumbotron-content bg-success bg-opacity-50 text-center py-5 rounded my-5">
         <h1 class="display-1 text-white py-5">Restaurant "Chez Serge"</h1>
         <p class=" display-6 text-center text-white">Les saveurs et les couleurs de votre jardin, directement dans votre assiette</p>
         <p class="lead my-5">
             <a href="#" class="btn btn-lg btn-light">En savoir plus</a>
         </p>
     </div>
+    <a href="#presentation" class="">
+        <img src="assets/icones/icone_01.png" alt="icone_defilement_bas" title="icone de défilement vers le bas" class="btn-defilement">
+    </a>
 </div>
 
-<div class="container">
+
+<!-- PRESENTATION -->
+
+<div class="container pb-5" id="presentation">
     <div class="row py-5">
         <div class="col-md-12 pb-5">
             <h2 class="display-4 text-center">Bienvenue dans notre jardin</h2>
@@ -45,11 +51,68 @@
             <button class="btn btn-success align-self-center">Plus d'infos</button>
         </div>
         <div class="col-md-6">
-            <img class="w-100" src="assets/images/photo_assiette_01.jpg" alt="photo_assiette" title="Photo d'une assiette avec une belle présentation">
+            <div class="carousel slide" id="diaporama" data-bs-ride="carousel">
+                <div class="carousel-inner row">
+                    <div class="carousel-item px-0 active">
+                        <img src="assets/images/carousel_01.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_02.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_03.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_04.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_05.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_06.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#diaporama" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"> </span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#diaporama" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"> </span>
+                </button>
+            </div>
         </div>
     </div>
 </div>
 
+<!-- CAROUSEL -->
+
+<div class="container-fluid bg-secondary bg-opacity-10">
+    <div class="row">
+        <div class="col-md-6 px-0">
+            <img class="w-100" src="assets/images/background_acceuil_03.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="row d-flex h-100 justify-content-center align-items-center">
+                <div class="col-md-8 text-center">
+                    <img src="assets/icones/icone_location_02.png">
+                    <h3 class="text-success">Restaurant "Chez Serge"</h3>
+                    <p>Rue du Jardin Fleuri 23<br>7800 ATH</p>
+                    <h4 class="text-start">Horaire</h4>
+                    <p class="text-start">Lundi : Fermé<br>
+                    Mardi : Fermé<br>
+                    Mercredi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Jeudi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Vendredi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Samedi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Dimanche : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                </p>
+                </div>
+                <div class="col-md-6 d-flex flex-column">
+                    <button class="btn btn-success align-self-center">Réserver une table</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script
