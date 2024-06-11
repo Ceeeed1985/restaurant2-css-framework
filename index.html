@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Chez Serge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<!-- NAVIGATION -->
+
+<nav class="nav bg-success justify-content-center pb-1">
+    <a href="index.html" class="nav-link text-white mx-3">Accueil</a>
+    <a href="album.html" class="nav-link text-white mx-3">Album</a>
+    <a href="menu.html" class="nav-link text-white mx-3">La carte</a>
+    <a href="a-propos.html" class="nav-link text-white mx-3">A propos</a>
+    <a href="contact.html" class="nav-link text-white mx-3">Contact</a>
+</nav>
+
+
+<!-- ACCUEIL -->
+
+<div class="accueil bg-dark d-flex w-100 h-100 flex-column justify-content-center align-items-center">
+    <div class="container jumbotron-content bg-success bg-opacity-50 text-center py-5 rounded my-5 animate__animated animate__zoomIn">
+        <h1 class="display-1 text-white py-5">Restaurant "Chez Serge"</h1>
+        <p class=" display-6 text-center text-white">Les saveurs et les couleurs de votre jardin <br> directement dans votre assiette</p>
+        <p class="lead my-5">
+            <a href="#" class="btn btn-lg btn-outline-light">En savoir plus</a>
+        </p>
+    </div>
+    <a href="#presentation" class="">
+        <img src="assets/icones/icone_01.png" alt="icone_defilement_bas" title="icone de défilement vers le bas" class="btn-defilement">
+    </a>
+</div>
+
+
+<!-- PRESENTATION -->
+
+
+<div class="container-fluid section_presentation">
+<div class="container pb-5" id="presentation">
+    <div class="row py-5">
+        <div class="col-sm-12 col-md-12 pb-5">
+            <h2 class="display-4 text-center">Bienvenue dans notre jardin</h2>
+        </div>
+        <div class="col-md-6 d-flex flex-column">
+            <h3>Pour l'amour des saveurs</h3>
+            <p class="fs-5 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nobis odit distinctio culpa rerum modi quos? In officia magnam ullam incidunt molestiae, eius error laudantium, facilis odio totam assumenda fugiat. Tempora obcaecati rem laudantium minus deleniti architecto, voluptas non in nostrum aliquam dolor aliquid incidunt quae suscipit labore est saepe.</p>
+            <br>
+            <p class="fs-5 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos maxime esse nam quaerat, labore sunt atque fugit distinctio laborum non, error animi.</p>
+            <button class="btn btn-success align-self-center">Plus d'infos</button>
+        </div>
+        <div class="col-md-6">
+            <div class="carousel slide" id="diaporama" data-bs-ride="carousel">
+                <div class="carousel-inner row">
+                    <div class="carousel-item px-0 active">
+                        <img src="assets/images/carousel_01.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_02.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_03.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_04.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_05.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item px-0">
+                        <img src="assets/images/carousel_06.jpg" alt="photo_assiette" class="d-block w-100">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#diaporama" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"> </span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#diaporama" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"> </span>
+                </button>
+            </div>
+        </div>
+    </div>   
+</div>
+</div>
+
+<!-- <div class="container-fluid  bg-success bg-opacity-25">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-2">
+                <img src="assets/icones/image_facebook.png" alt="image_facebook">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/icones/image_instagram.png" alt="image_facebook">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/icones/image_linkedin.png" alt="image_facebook">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/icones/image_snap.png" alt="image_facebook">
+            </div>
+            <div class="col-md-2">
+                <img src="assets/icones/image_twitter.png" alt="image_facebook">
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- CAROUSEL -->
+
+<div class="container-fluid bg-secondary bg-opacity-10">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 px-0">
+            <img class="w-100" src="assets/images/background_acceuil_03.jpg" alt="">
+        </div>
+        <div class="col-sm-12 col-md-6">
+            <div class="row d-flex h-100 justify-content-center align-items-center">
+                <div class="col-md-9 text-center">
+                    <img src="assets/icones/icone_location_02.png">
+                    <h3 class="text-success">Restaurant "Chez Serge"</h3>
+                    <p>Rue du Jardin Fleuri 23<br>7800 ATH</p>
+                    <h4 class="text-start">Horaire</h4>
+                    <p class="text-start">Lundi : Fermé<br>
+                    Mardi : Fermé<br>
+                    Mercredi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Jeudi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Vendredi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Samedi : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                    Dimanche : de 11.30 hrs à 14.30 hrs et de 18.00 hrs à 21.30 hrs <br>
+                </p>
+                </div>
+                <div class="col-sm-6 col-md-6 d-flex flex-column pb-5">
+                    <button class="btn btn-success align-self-center">Réserver une table</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- SEPARATOR -->
+
+<div class="container-fluid separator h-100 bg-secondary bg-opacity-10"></div>
+
+
+<!-- SECTION A PROPOS -->
+
+<footer class="container-fluid bg-success text-white py-3">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-md-4">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-4">
+                            <img src="assets/icones/icone_portable.png" alt="image_gsm">
+                        </div>
+                        <div class="col-md-8">
+                            <p>+32 478 46 53 73</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="assets/icones/icone_phone.png" alt="image_phone">
+                        </div>
+                        <div class="col-md-8">
+                            <p>+32 68 33 30 01</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="#" class="nav-link text-white">Facebook</a>
+                <a href="#" class="nav-link text-white">Twitter</a>
+                <a href="#" class="nav-link text-white">Instagram</a>
+                <a href="#" class="nav-link text-white">Snapchat</a>
+                <a href="#" class="nav-link text-white">Linkedin</a>
+            </div>
+            <div class="col-md-4 text-center">
+                <p>Cedric Truyen @ <strong>BeCode Brussels</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
+</body>
+</html>
